@@ -1,0 +1,8 @@
+<?php
+$palavra = "radar";
+$invertido = strrev($palavra);
+if($invertido=="radar"){
+echo"a palavra é um palidromo";
+}else{
+	echo "a palavra não é um palídromo";
+}
