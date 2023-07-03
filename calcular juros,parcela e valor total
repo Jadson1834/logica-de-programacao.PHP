@@ -1,0 +1,8 @@
+<?php
+$emprestimo = 800;
+$juros = 13.75;
+$meses = 6;
+$valorjuros = $emprestimo*($juros/100);
+$valortotal = $emprestimo+$valorjuros;
+$valorparcela = $valortotal/$meses;
+echo "esses são seus valores: $valorjuros, $valortotal, $valorparcela";
