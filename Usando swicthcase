@@ -1,0 +1,23 @@
+<?php
+$nome = "paulo";
+$num = 6;
+$nume = 6;
+$numer = 7;
+$numero = 9;
+$media = ($num+$nume+$numer+$numero)/4;
+switch($media) {
+	case 5:
+	echo "reprovou";
+	break;
+	case 6:
+		echo "ficou de dependencia";
+		break;
+		case 7:
+			echo "$nome passou";
+	break;
+	case 9:
+	echo "$nome passou tirando a maoir nota da sala";
+	break;
+	default;
+		echo "nao encontrei suas notas";
+}
