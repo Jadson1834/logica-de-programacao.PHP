@@ -1,0 +1,9 @@
+<?php
+$usuario = "maikon";
+$nome = "maon";
+$senha = 1234;
+if($nome=="maon" && $senha==1234){
+	echo "bem vindo $usuario";
+}else{
+	echo "usuário não reconhecido";
+}
