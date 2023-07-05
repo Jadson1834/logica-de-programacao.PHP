@@ -1,0 +1,36 @@
+<?php
+$i = 1;
+while($i<11){
+	echo "numero:$i\n";
+	$i++;}
+
+
+<?php
+$i = 10;
+while($i>0){
+	echo "numero:$i\n";
+	$i--;}
+
+
+<?php
+$i = 12;
+$num = 2;
+echo "numeros pares ate ";
+while($num<=$i){
+	if($num % 2==0){
+	echo $num;
+	}
+	$num+=2;
+}
+
+
+
+<?php
+$i = 12;
+$num = 2;
+while($i>0){
+	$digito = $i % 10;
+	$num += $digito;
+	$i = intval($i/10);
+}
+echo"a soma dos digitos é:" . $num; 
