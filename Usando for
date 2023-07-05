@@ -1,0 +1,39 @@
+<?php
+for ($i = 9; $i < 20; $i++) {
+   echo "Número: $i\n";
+}
+
+
+
+<?php
+$num = 7;
+for ($i = 1;$i <= 10;$i++) {
+	$resultado = $num * $i;
+	echo"$num x $i = $resultado\n";
+}
+
+
+<?php
+$num = 5;
+$fatorial = 1;
+for ($i = 1; $i <= $num; $i++) {
+    $fatorial *= $i;
+}
+echo "O fatorial de $num é: $fatorial";
+
+
+
+
+<?php
+for ($i = 2; $i <= 100; $i++){
+	$primo = true;
+	for ($j = 2; $j <= sqrt($i); $j++){
+		if ($i % $j === 0){
+			$primo = false;
+			break;
+		}
+	}
+	if($primo){
+		echo $i . "  ";
+		}
+	}
