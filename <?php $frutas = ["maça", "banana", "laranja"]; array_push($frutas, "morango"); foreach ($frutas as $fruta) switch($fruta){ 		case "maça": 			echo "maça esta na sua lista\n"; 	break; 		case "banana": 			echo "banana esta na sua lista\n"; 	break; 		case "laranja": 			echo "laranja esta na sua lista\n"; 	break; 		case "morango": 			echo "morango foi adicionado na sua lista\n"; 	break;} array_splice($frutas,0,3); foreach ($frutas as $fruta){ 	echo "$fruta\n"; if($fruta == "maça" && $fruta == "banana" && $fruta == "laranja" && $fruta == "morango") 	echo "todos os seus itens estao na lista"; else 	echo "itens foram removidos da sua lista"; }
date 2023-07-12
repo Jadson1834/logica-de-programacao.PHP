@@ -1,0 +1,26 @@
+<?php
+$frutas = ["maça", "banana", "laranja"];
+array_push($frutas, "morango");
+foreach ($frutas as $fruta)
+switch($fruta){
+		case "maça":
+			echo "maça esta na sua lista\n";
+	break;
+		case "banana":
+			echo "banana esta na sua lista\n";
+	break;
+		case "laranja":
+			echo "laranja esta na sua lista\n";
+	break;
+		case "morango":
+			echo "morango foi adicionado na sua lista\n";
+	break;}
+array_splice($frutas,0,3);
+foreach ($frutas as $fruta){
+	echo "$fruta\n";
+if($fruta == "maça" && $fruta == "banana" && $fruta == "laranja" && $fruta == "morango")
+	echo "todos os seus itens estao na lista";
+else
+	echo "itens foram removidos da sua lista";
+}
+
